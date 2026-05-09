@@ -1,0 +1,81 @@
+
+/*quinta 14h-16h*/
+body {
+    background-color: #DBDDDE;
+    font-family: "Roboto Mono", monospace;
+    border: 3px solid #24276e;
+    margin:5px;
+    overflow-wrap: break-word;
+}
+h1, h2 {
+    color:#24276e;
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    color:#0543FF;
+    text-indent: 10px;
+    padding: 7px;
+}
+p::first-letter{font-size:150%;}
+.destaque {
+    color:#AB1D13;
+}
+header {
+    border: 3px solid #24276e;
+    margin: 5px;
+}
+nav {
+    border: 3px solid #24276e;
+    margin:5px;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+nav a {
+    color:#AB1D13;
+    text-decoration: none;
+}
+main {
+    border:3px solid #24276e;
+    margin: 5px;
+}
+#sobre {
+    border:3px solid #24276e;
+    margin:5px;
+}
+#galeria {
+    border:3px solid #24276e;
+    margin:5px;
+}
+#galeria img{
+    height: 140px;
+    width: 250px;
+    margin: 10px;
+}
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+#referencias {
+    border:3px solid #24276e;
+    margin:5px;
+    color:#0543FF;
+    padding:7px;
+}
+li a{
+    color:#AB1D13;
+}
+#referencias li {
+    color:#24276e;
+}
+footer {
+    font-size: 11px;
+    border:3px solid #24276e;
+    margin:5px;
+    color:#0543FF;
+    padding:7px;
+}
