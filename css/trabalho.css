@@ -1,5 +1,3 @@
-
-/*quinta 14h-16h*/
 body {
     background-color: #DBDDDE;
     font-family: "Roboto Mono", monospace;
@@ -78,4 +76,12 @@ footer {
     margin:5px;
     color:#0543FF;
     padding:7px;
+}
+footer nav {
+    border: 0px;
+    color:#AB1D13;
+    font-size: 15px;
+    text-decoration: underline;
+    display:flex;
+    justify-content: space-around;
 }
