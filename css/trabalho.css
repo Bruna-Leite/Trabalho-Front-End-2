@@ -20,8 +20,17 @@ p::first-letter{font-size:150%;}
     color:#AB1D13;
 }
 header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 3px solid #24276e;
     margin: 5px;
+}
+header img {
+    width: 100px;
+    gap:15px;
+    padding:7px;
 }
 nav {
     border: 3px solid #24276e;
